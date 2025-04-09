@@ -34,3 +34,13 @@ function def_color(){
     document.getElementById("name_inputio").style.backgroundColor = "white"
 
 }
+
+
+const dragBtn = document.getElementById("dragBtn")
+
+dragBtn.addEventListener("click",function(e){
+  
+    dragBtn.style.top = e.clientY - dragBtn.offsetHeight/2 + "px"
+    dragBtn.style.left = e.clientX - dragBtn.offsetWidth/2 + "px"
+    
+})
