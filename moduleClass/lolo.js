@@ -14,5 +14,6 @@ function sayMyName(){
 
 }
 
+const x = 10;
 
-export {sayHello, sayGoodBye, sayMyName}
+export {sayHello, sayGoodBye, sayMyName ,x}
