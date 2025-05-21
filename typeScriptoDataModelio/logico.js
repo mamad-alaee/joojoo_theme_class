@@ -24,7 +24,13 @@ isMarried = "Yes"
 
 
 let userList = ["bardia","bardiaWithSh","bardiaWithSh2"]
+userList.push(24)
 
+
+let bardiaData = {"name":"bardia","skill":"ش","game":"war thunder","aka":"timePoor"}
+
+bardiaData.aka = "ZeitPoor"
+bardiaData.name = 6
 
 
 
